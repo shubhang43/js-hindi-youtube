@@ -45,3 +45,26 @@ console.log("Hello world");
 }
 
 console.log(typeof heros);
+
+// +++++++++++++++++++++++++++
+
+// Stack (Primitve), Heap (Non-primitive)
+
+let myYoutubename = "shubhang"
+
+let anothername = myYoutubename
+anothername = "chai aur code"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "shubhang@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
