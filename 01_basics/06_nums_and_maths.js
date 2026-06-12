@@ -33,7 +33,7 @@ console.log(Math.random()); // Math.random always gives number between 0 and 1.
 console.log((Math.random()*10) + 1); 
 
 console.log(Math.floor(Math.random()*10) + 1); 
-// floor goives lowest number and Math.random gives number betwwen 0 and 1 so floor will always give 0 to avoid this we have added 1 so the values will always be above or equal 1.
+// floor gives lowest number and Math.random gives number betwwen 0 and 1 so floor will always give 0 to avoid this we have added 1 so the values will always be above or equal 1.
 
 const min = 10
 const max = 20
